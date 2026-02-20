@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(270deg, #ff0000, #ff8800, #fffb00,rgb(30, 255, 0),rgb(0, 204, 255),blue,purple);
+  background-size: 600% 600%;
+  animation: gradientAnimation 10s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+img{
+text-align: ;
+}
